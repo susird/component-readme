@@ -75,11 +75,12 @@ To hande the style you can create this objet to modify the styles inside the com
 ```
 ### :key: dataKeys
 To make sure the data is render on the component, you should enter this objetc as a prop
+
 ```
-dataKey= {
+dataKey = {
   name: "name",
   value: "value"
-  }
+}
 ```
 
 ### Example 
@@ -87,13 +88,13 @@ dataKey= {
 
 ```jsx
 <PieChart 
-        width={options.width || 300}
-        height={options.height || 200}
-        margin={options.margin}>
-        <text 
-        x={options.cx} 
-        y={options.cy} 
-        fill={options.textFill} 
-        textAnchor={options.textAnchor || "middle"}
+    width={options.width || 300}
+    height={options.height || 200}
+    margin={options.margin}>
+    <text 
+    x={options.cx} 
+    y={options.cy} 
+    fill={options.textFill} 
+    textAnchor={options.textAnchor || "middle"}
 >
 ```
