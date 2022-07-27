@@ -1,4 +1,4 @@
-# :doughnut: DonutChart Component:doughnut:
+# :doughnut: DonutChart Component
 
 :star: This component was built to be reused and modified according to the developer's preferences.
 The library used to build the component was [recharts](https://recharts.org/en-US/api/PieChart)
@@ -11,24 +11,24 @@ The library used to build the component was [recharts](https://recharts.org/en-U
 ```
   data = [
     {
-    name: "January",
-    value: 54,
+      name: "January",
+      value: 54,
     },
     {
-    name: "February",
-    value: 80,
+      name: "February",
+      value: 80,
     },
     {
-    name: "March",
-    value: 100,
+      name: "March",
+      value: 100,
     },
     {
-    name: "May",
-    value: 30,
+      name: "May",
+      value: 30,
     },
     {
-    name: "June",
-    value: 65,
+      name: "June",
+      value: 65,
     },
   ]
 ```
@@ -85,3 +85,15 @@ dataKey= {
 ### Example 
 ![image](https://user-images.githubusercontent.com/42523734/181346606-42ee0fa8-9af1-43ac-9943-8254fef585d2.png)
 
+```jsx
+<PieChart 
+        width={options.width || 300}
+        height={options.height || 200}
+        margin={options.margin}>
+        <text 
+        x={options.cx} 
+        y={options.cy} 
+        fill={options.textFill} 
+        textAnchor={options.textAnchor || "middle"}
+>
+```
